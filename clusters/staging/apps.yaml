@@ -18,3 +18,6 @@ spec:
       kind: HelmRelease
       name: podinfo
       namespace: podinfo
+  postBuild:
+    substitute:
+      log_level: "trace"
