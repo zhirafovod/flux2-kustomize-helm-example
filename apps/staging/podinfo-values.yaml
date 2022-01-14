@@ -10,7 +10,6 @@ spec:
   test:
     enable: false
   values:
-    logLevel: ${log_level:=debug}
     ingress:
       hosts:
         - host: podinfo.staging

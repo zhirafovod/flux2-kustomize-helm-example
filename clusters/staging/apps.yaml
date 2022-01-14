@@ -21,3 +21,6 @@ spec:
   postBuild:
     substitute:
       log_level: "trace"
+    substituteFrom:
+      - kind: ConfigMap
+        name: cell-vars

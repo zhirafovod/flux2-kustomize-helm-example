@@ -2,3 +2,4 @@ apiVersion: v1
 kind: Namespace
 metadata:
   name: podinfo
+  some_hostname: ${some_hostname_var:=foo}

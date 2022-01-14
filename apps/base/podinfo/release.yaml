@@ -19,6 +19,7 @@ spec:
   # Default values
   # https://github.com/stefanprodan/podinfo/blob/master/charts/podinfo/values.yaml
   values:
+    logLevel: ${log_level:=debug}
     cache: redis-master.redis:6379
     ingress:
       enabled: true
